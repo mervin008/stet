@@ -21,7 +21,6 @@ require (
 	google.golang.org/genproto v0.0.0-20230525154841-bd750badd5c6
 	google.golang.org/grpc v1.55.0
 	google.golang.org/protobuf v1.30.0
-	google.golang.org/appengine v1.6.7
 	sigs.k8s.io/yaml v1.3.0
 )
 
@@ -41,6 +40,5 @@ require (
 	golang.org/x/sys v0.8.0 // indirect
 	golang.org/x/text v0.9.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
-	google.golang.org/grpc v1.55.0
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
