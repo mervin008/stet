@@ -34,7 +34,7 @@ require (
 	github.com/google/s2a-go v0.1.4 // indirect
 	github.com/googleapis/enterprise-certificate-proxy v0.2.3 // indirect
 	github.com/mattn/go-isatty v0.0.19 // indirect
-	github.com/google/tink/go/aead/subtle@v1.7.0
+	#github.com/google/tink/go/aead/subtle@v1.7.0
 	go.opencensus.io v0.24.0 // indirect
 	golang.org/x/crypto v0.9.0 // indirect
 	golang.org/x/net v0.13.0 // indirect
