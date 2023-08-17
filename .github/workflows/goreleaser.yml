@@ -27,6 +27,8 @@ jobs:
       - name: Generate protobuf language bindings
         run: |
           make all
+          go get google.golang.org/grpc@v1.55.0
+          go get github.com/google/tink/go/aead/subtle@v1.7.0
       - name: Run GoReleaser
         uses: goreleaser/goreleaser-action@v4
         with:
