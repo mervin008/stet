@@ -6,3 +6,5 @@ proto/vendor/*
 
 # Ignore compiled proto files.
 *.pb.go
+go.mod
+go.sum
