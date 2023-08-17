@@ -1,6 +1,6 @@
 module github.com/GoogleCloudPlatform/stet
 
-go 1.20
+go 1.21
 
 require (
 	cloud.google.com/go/compute/metadata v0.2.3
@@ -20,6 +20,7 @@ require (
 	google.golang.org/api v0.124.0
 	google.golang.org/genproto v0.0.0-20230525154841-bd750badd5c6
 	google.golang.org/grpc v1.55.0
+        github.com/google/tink/go/aead/subtle@v1.7.0
 	google.golang.org/protobuf v1.30.0
 	sigs.k8s.io/yaml v1.3.0
 )
