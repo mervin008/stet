@@ -31,8 +31,8 @@ jobs:
           make all
       - name: Build all sources
         run: |
-          go get google.golang.org/grpc@v1.55.0
-          go get github.com/google/tink/go/aead/subtle@v1.7.0
+    #      go get google.golang.org/grpc@v1.55.0
+     #     go get github.com/google/tink/go/aead/subtle@v1.7.0
           go build ./...
       - name: Run all tests
         run: |
