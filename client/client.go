@@ -371,7 +371,7 @@ func (c *StetClient) unwrapAndValidateShares(ctx context.Context, wrappedShares 
 					glog.Warningf("Error unwrapping key share: %v", err)
 					continue
 				}
-			case rpb.ProtectionLevel_EXTERNAL:
+			case rpb.ProtectionLevel_EXTERNAL_VPC:
 				unwrapped.Share, err = c.ekmSecureSessionUnwrap(ctx, wrapped.GetShare(), *kmd)
 				if err != nil {
 					glog.Warningf("Error unwrapping with external EKM for %v: %v", kmd.uri, err)
